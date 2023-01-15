@@ -1,0 +1,21 @@
+.site-header {
+  background-color: rgba(230,230, 230, .85);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #d6d5d5;	
+}
+
+  .site-header a {
+      color: #777;
+      transition: ease-in-out color .15s;
+  }
+
+      .site-header a:hover {
+          color: #676767;
+          text-decoration: none;
+      }
+
+      .site-header .active {
+          color: #3888bd;
+          text-decoration: none;
+      }

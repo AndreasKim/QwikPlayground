@@ -1,0 +1,26 @@
+
+.navigationBanner{
+    background: url("/bg.jpg") top center repeat;
+    background-size:cover;
+}
+
+.rhinoAnimation 
+{
+    position: relative;
+    animation: example 40s infinite;
+}
+
+@keyframes example {
+    0%, 100% {
+        right: -100px;
+    }
+
+    50% {
+        right: 200px;
+    }
+}
+
+.rotate{
+    width: 150px;
+    transform: rotate(-20deg);
+ }

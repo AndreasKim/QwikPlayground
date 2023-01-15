@@ -1,0 +1,24 @@
+.notification {
+    width: 40px;
+    height: 20px;
+    position: relative;
+}
+
+.badge {
+    font-size: xx-small;
+    position: absolute;
+    padding: 2px;
+    top: -12px;
+    left: 15px;
+    border-radius: 25px;
+}
+
+.iconSize {
+    font-size:16px;
+    color:#777;
+}
+
+.iconBigSize {
+    font-size:20px;
+    color:#777;
+}
