@@ -9,6 +9,7 @@
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
+    "build.server": "vite build -c adaptors/azure-swa/vite.config.ts",
     "build.types": "tsc --incremental --noEmit",
     "deploy": "echo 'Run \"npm run qwik add\" to install a server adaptor'",
     "dev": "vite --mode ssr",
@@ -17,10 +18,12 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
+    "serve": "swa start",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
   "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.0.3",
     "@builder.io/qwik": "0.16.2",
     "@builder.io/qwik-city": "0.0.128",
     "@types/bootstrap": "^5.2.6",
